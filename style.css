@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    font-family: 'Chivo', sans-serif;
+    --text-color: white;
+}
+
+::-webkit-scrollbar {width: 0.5vw;}
+::-webkit-scrollbar-track {background: black;}
+::-webkit-scrollbar-thumb {background: white;}
+::-webkit-scrollbar-thumb:hover {background: gray;}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0 0 0 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.eatezlogo {
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+nav > div > a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav > div > a:hover, a:focus {
+    font-weight: 700;
+}
+
+main {
+    height: 90vh;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[data-home="main"] {
+    background: url(https://davisbrotherlylove.files.wordpress.com/2019/02/foggy-night-and-rooftop-022519.jpg) no-repeat fixed center;
+    background-size: 100%;
+}
+
+[data-instructions="main"] {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/98/TreesInTheFog.jpg) no-repeat fixed center;
+    background-size: 100%;
+}
+
+[data-inprocess="main"] {
+    background: url(https://media.istockphoto.com/id/1369691475/photo/cardboard-texture.jpg?s=612x612&w=0&k=20&c=7LSNSeUNEPVeofm4OZj9oZqLb9PevOZcWsV_TdhbH5s=) no-repeat fixed center;
+    background-size: 100%;
+}
+
+[data-finalproduct="main"] {
+    background: url(https://www.rmets.org/sites/default/files/2022-05/Depositphotos_8469695_XL_0.jpg) no-repeat fixed center;
+    background-size: 100%;
+}
+
+main > div {
+    transform: translateY(-20%);
+    text-align: center;
+}
+
+main > div > h1 {
+    font-size: 3.2rem;
+    margin-bottom: 0;
+}
+
+main > div > p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+main > div > h1, p {
+    color: var(--text-color);
+}
+
+article {
+    height: 100vh;
+    width: 70%;
+    margin: 0 0 0 0;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+    align-items: center;
+}
+
+article > div {
+    text-align: left;
+}
+
+article > div > h1 {
+    font-size: 4rem;
+}
+
+article > div > h2 {
+    font-size: 2.2rem;
+}
+
+article > div > p {
+    font-size: 1.2rem;
+}
+
+article > div > h1, h2, p {
+    color: var(--text-color);
+}
+
+article > div > blockquote {
+    color: var(--text-color);
+    padding-top: 3rem;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+.gallery {
+    height: 100vh;
+    width: 70%;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+    align-items: center;
+}
+
+.gallery > div > img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    height: 25vh;
+    width: 100%;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div > ul {
+    display: inline-block;
+}
+
+.footer-clm-1 {
+    padding-right: 4rem;
+}
+
+.footer-clm-2 {
+    padding-left: 4rem;
+}
+
+footer > div > ul > li > a {
+    text-decoration: none;
+    color: var(--text-color);
+}
